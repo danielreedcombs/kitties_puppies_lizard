@@ -1,0 +1,31 @@
+.nav {
+  display:flex;
+  list-style-type:none;
+  justify-content:space-evenly;
+  background-color:rgb(0, 128, 100)
+  
+  }
+  .nav li {
+    margin-right:10px;
+    border: 1px solid;
+  
+  }
+  
+  .container {
+    display:flex;
+   
+    flex-wrap: wrap;
+    
+  }
+  
+  .animal {
+  flex-basis: 15%;
+  border: 5px solid;
+  margin:10px;
+  
+  } 
+  
+  img {
+    width: 200px;
+    height:200px;
+  }
